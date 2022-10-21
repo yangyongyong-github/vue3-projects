@@ -1,0 +1,28 @@
+@import url(./_var.scss);
+
+html {
+    color: $words;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+        color: $primary;
+    }
+}
+
+
+ul,
+li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

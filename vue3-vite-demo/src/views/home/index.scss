@@ -1,0 +1,21 @@
+@import url(../../styles/_var.scss);
+
+.home-container {
+    nav {
+        padding: 30px;
+        color: $text-color-love;
+    }
+
+    ul.items {
+        li {
+            &:hover {
+                font-weight: bold;
+                color: $text-color-love;
+
+                &:hover {
+                    color: $text-color-love;
+                }
+            }
+        }
+    }
+}
